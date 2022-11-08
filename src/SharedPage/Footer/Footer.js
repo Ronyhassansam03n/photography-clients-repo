@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png'
 
 
 const Footer = () => {
@@ -39,10 +40,10 @@ const Footer = () => {
 
 <div className="items-center grid-flow-col">
 
-
+<img width="100" height="100" src={logo} alt="" /> 
 
     <p>Creative Photography. <br/>Providing reliable tech since 2020</p>
-
+    
   </div> 
   
   <div className="md:place-self-center md:justify-self-end">
