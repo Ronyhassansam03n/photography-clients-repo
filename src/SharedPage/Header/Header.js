@@ -8,9 +8,10 @@ const Header = () => {
  <> 
    <li> 
 
-    <Link to='/'> HOME</Link>
-    <Link to='/services'> SERVICES</Link>
-    <Link to='/about'> ABOUT US</Link>
+    <Link className='font-semibold ' to='/'> HOME</Link>
+    <Link className='font-semibold ' to='/services'> SERVICES</Link>
+    <Link className='font-semibold ' to='/blog'> BLOGS</Link>
+    <Link className='font-semibold ' to='/about'> ABOUT US</Link>
    
     
     
@@ -43,7 +44,7 @@ const Header = () => {
 
                     </div>
                     <Link to='/'> <img width="100" height="100" src={logo} alt="" />  </Link>
-                    <h4 className='text-2xl'> Creative Photography</h4>
+                    <h4 className='text-2xl font-medium'> Creative Photography</h4>
                 </div>
 
 
@@ -63,7 +64,8 @@ const Header = () => {
 
 
                 <div className="navbar-end">
-                    <a className="btn">Get started</a>
+                    <Link className="btn mx-1 btn-outline btn-sm" >Log in</Link>
+                    <Link className="btn btn-outline btn-sm">Sign Up</Link>
                 </div>
             </div>
 
