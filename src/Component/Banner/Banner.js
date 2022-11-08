@@ -28,7 +28,7 @@ const Banner = () => {
         </p>
     </div>
     <div className="absolute flex justify-end transform -translate-y-1/2 left-24  top-2/3">
-    <button className="btn glass  mx-2">Booking Now</button>
+   <Link to='/off'> <button className="btn glass  mx-2">Booking Now</button></Link>
    <Link to='/services'> <button className="btn glass   "> See Packages</button></Link>
     </div>
 
