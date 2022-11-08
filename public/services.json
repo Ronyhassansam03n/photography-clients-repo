@@ -1,0 +1,99 @@
+[
+
+    {
+        "_id": "01",
+        "services_id" : " 101",
+
+        "title" : "Baby Shower Photography",
+
+        "banner" : "https://ibb.co/xm2KfN3",
+        "img" : "https://ibb.co/HDCS49G",
+
+        "price" : "2,000.00",
+
+        "description" :  "Dressed in white from head to toe, this angelic celebration was more than just a baby shower. It was a way to honor the beautiful mama-to-be's pregnancy journey and the baby that she dreamed about for so long. With close friends and family, Cassandra - who happens to be the founder of Event Prep, a wedding and event design firm - crafted a day that felt equal parts meaningful and celebratory, from the sweet details to the endearing theme. This is a baby shower that was built with style -and a whole lot of love. Photographs by Amanda Collins.After leaving one of my doctors appointments this time around, another one of the songs on my playlist came on the radio: Fitz & The Tantrums I heard the line “you are more than just a dream,” and a calmness came over me because I knew God had a plan for us all along and had blessed up with this little boy. It wasnt just a dream anymore, it was more, it was real.",
+
+        "short" : "Dressed in white from head to toe, this angelic celebration was more than just a baby shower.",
+
+        "duration" : "01 Days"
+        },
+
+
+    {
+        "_id": "02",
+        "services_id" : " 102",
+
+        "title" : "Anniversary Photography",
+
+        "banner" : "https://image1.masterfile.com/getImage/NjExMy0wNjcyMTE0NmVuLjAwMDAwMDAw=ANr2Tb/6113-06721146en_Masterfile.jpg",
+        "img" : "https://i.insider.com/5dfa4207954bda2f7a4262da?width=750&format=jpeg&auto=webp",
+
+        "price" : "5,000.00",
+
+        "description" : "Hello & Happy Thursday, we are beyond thrilled to be sharing Jaclyn & Lewis’s Anniversary Photos at the Rocky Mountain National Park. These photos were captured by Hugo and they are absolutely epic! We’ve had the honor and pleasure of working with Jaclyn & Lewis through many seasons of their lives, from their destination engagement photos in Italy which you can see HERE & HERE (anyone else want a destination session in Italy?!?!) to their breathtaking fall wedding in Lancaster, and we love that through the many seasons of their relationship we have been able to capture the beauty of their love and commitment to one another.Jaclyn & Lewis planned a trip out west this summer, and choose to have us document them in the mountains of Colorado. This session was particularly fun for Hugo because we visited this exact location last summer on vacation and he was very familiar with this hike. The Rocky Mountain National Park is absolutely stunning, and provides so many sweeping and breathtaking views. We can not express how grateful we are for Jaclyn & Lewis’s trust in us, and how they have taken us to so many amazing places over the years. Jaclyn & Lewis, we are grateful for you. We have felt so very blessed getting to know you and share such amazing adventures together. We hope that these images always serve as a reminder of your love for travel, adventure, and most importantly each other. We love you guys! Where should we go next?!?",
+
+        "short" : "Hello & Happy Thursday, we are beyond thrilled to be sharing Jaclyn & Lewis’s Anniversary Photos at the Rocky Mountain National Park.",
+
+        "duration" : "01 Day"
+        },
+    {
+        "_id": "03",
+        "services_id" : " 103",
+        "title" : "Birthday Photography",
+
+        "banner" : "https://sharp.stylemepretty.com/submissions/uploads/345733/603426ab779cc$!600x.jpg",
+        "img" : "https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2011/07/how-to-photograph-a-childs-birthday-party.jpg?fit=900%2C600&ssl=1",
+
+        "price" : "1,000.00",
+
+        "description" : "Aside from how insanely adorable sweet little Lennon is, the star behind today's birthday party, the one thing that truly made us stand in awe, was Lennon's incredible mama. As one of the more thoughtfully crafted celebrations we've ever seen, she designed a day inspired by a favorite book of Lennon's, Vashti Harrison’s “Little Legends, Exceptional Men in Black History” with the hopes that through imagery and design, she could represent her little boy in the most beautiful light possible. Read on to see how she did just that, and so much more. Photos by Kara Coleen.t’s no secret that it’s been a tough year for children. I wanted to do something at home for Lennon's birthday to honor his heritage. Ever since he was a baby, we’ve been reading a page of Vashti Harrison’s “Little Legends, Exceptional Men in Black History” to him every night. When we read together, we focus on one individual and his accomplishments. As he’s getting older, Lennon is starting to look forward to this. Thus, it seemed like a wonderful theme for his birthday celebration.",
+
+        "short" : "Aside from how insanely adorable sweet little Lennon is, the star behind today's birthday party, the one thing that truly made us stand in awe, was Lennon's incredible mama.",
+
+        "duration" : "12 Hr."
+        },
+    {
+        "_id": "04",
+        "services_id" : " 104",
+        "title" : " Portfolio Photography",
+        "banner" : "https://undsgn.com/wp-content/uploads/2018/05/massive-dynamic-pgotography-portfolio-website-template.jpg",
+        "img" : "https://i.pinimg.com/originals/f0/6a/cf/f06acfd01d4d229670c9b74002e863eb.jpg  ",
+
+        "price" : "3,000.00",
+        
+        "description" : "You’re standing at a fall festival, watching your kids decorate their pumpkins, and you strike up a conversation with another parent. You find out that this person is an art editor at your favorite magazine — and you’d love to do some work for them. You try to convince her that you’re a great photographer but you see her eyes glaze over because she’s heard this a thousand times, and she just wants to watch her kids. You tell stories about your photo-shoots and list the places you’ve been published. She tries to escape, but you follow her to the ladies room. You chase her around desperately. Oh no, this may be your only chance, but you’re not making any brownie points! It would be so much easier to give her your business card with your URL. Even better, get her e-mail address and send her a short, friendly note with a link to your portfolio.",
+
+        "short" : "You’re standing at a fall festival, watching your kids decorate their pumpkins, and you strike up a conversation with another parent.",
+        "duration" : "01 Days"
+        },
+    {
+        "_id": "05",
+        "services_id" : " 105",
+        "title" : "Out Door Photography",
+        "banner" : "https://expertphotography.b-cdn.net/wp-content/uploads/2019/11/Nature-Photographer-Marco-Grassi.png",
+        "img" : "https://i.ytimg.com/vi/ovvFfMsSnkM/maxresdefault.jpg",
+        "price" : "6,000.00",
+        "description" : "when taking pictures you can use zoom. Zoom is good for taking pictures of subjects at a distance and is also good for doing close ups of objects such as flowers. Using zoom can distort your photos sometimes though so when using zoom try to make sure you focus on the subject and that it doesn’t blur out. If the image does blur out, zoom out till it stops to blur. If you are using a digital camera you may also find your camera comes with lots of settings for you to use. The best way to get to grips with these different functions is to try them out and test them! Some functions are great for outdoors pictures and there are also functions that are great for taking shots of moving images. A favourite function of mine is Hi-Speed Burst. This is a great way to capture a moving object such as a skier. What the function does is as you hold the shutter button down, it takes a series of pictures one after the other so you can go back through them and pick the best of your moving object. They also allow you to see your subject as though it is moving so you can also capture it at its best moment.",
+        "short" : "when taking pictures you can use zoom. Zoom is good for taking pictures of subjects at a distance and is also good for doing close ups of objects such as flowers.",
+        "duration" : "02 Days"
+        },
+
+
+        
+    {
+        "_id": "06",
+        "services_id" : " 106",
+
+        "title" : "Wedding photography",
+
+        "banner" : "https://sharp.stylemepretty.com/submissions/uploads/353698/6298e98e5912e$!900x.jpg",
+        "img" : "https://sharp.stylemepretty.com/submissions/uploads/353698/6298e98e8c9d1$!600x.jpg",
+
+        "price" : "10,000.00",
+
+        "description" : "From pops of color at their floral-focused ceremony to endless strings of twinkle lights at their al fresco reception, today's wedding in Portugal is the definition of whimsical. After visiting the groom's family home in Sintra, this adorable couple knew it was the perfect place to host their destination wedding weekend! Planned by Sofia Nascimento Studios and captured by Diane Sotero Photography, the full gallery is chockfull of details you don't want to miss.Whimsical Destination Wedding at Quinta Da Penalva in Sintra, Portugal From pops of color at their floral-focused ceremony to endless strings of twinkle lights at their al fresco reception, today's wedding in Portugal is the definition of whimsical. After visiting the groom's family home in Sintra, this adorable couple knew it was the perfect place to host their destination wedding weekend! Planned by Sofia Nascimento Studios and captured by Diane Sotero Photography, the full gallery is chockfull of details you don't want to miss.From Diane Sotero Photography...we wanted it to be an event that people would always remember and for it to be a celebration of not only us but our families as well. We wanted our guests to feel like they were on holiday.Why did you choose your destination wedding location?I fell in love with Sintra when first visiting Sebastians parents home. They have a summer home in Portugal and the architecture and greenery perfectly fit our wedding theme requirementsWhat was your favorite moment? My favourite moment was just before I was due to walk down the aisle. Standing at the back with my father, having this moment with him, this moment of pride and joy before walking down the aisle, to my husband, with one of our favourite songs and everyone we loved being there with us to share this moment.",
+
+        "short" : "From pops of color at their floral-focused ceremony to endless strings of twinkle lights at their al fresco reception, today's wedding in Portugal is the definition of whimsical.",
+        "duration" : "05 Days"
+        }
+]
