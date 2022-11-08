@@ -3,6 +3,7 @@ import image1 from '../../assets/bannerphoto/banner.jpg'
 import image2 from '../../assets/bannerphoto/ban.jpg'
 import image3 from '../../assets/bannerphoto/banner01.jpg'
 import image4 from '../../assets/bannerphoto/banner02.jpg'
+import { Link } from 'react-router-dom';
 
 
 const Banner = () => {
