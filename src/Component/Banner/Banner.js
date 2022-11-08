@@ -3,21 +3,15 @@ import image1 from '../../assets/bannerphoto/banner.jpg'
 import image2 from '../../assets/bannerphoto/ban.jpg'
 import image3 from '../../assets/bannerphoto/banner01.jpg'
 import image4 from '../../assets/bannerphoto/banner02.jpg'
-import './Banner.css'
+
 
 const Banner = () => {
     return (
 
         <div className="carousel w-full ">
   <div id="slide1" className="carousel-item relative w-full ">
-
+    <img src={image1}  alt='' className="w-full rounded-lg "  />
     
-
-    <img src={image1}  alt='' className="w-full "  />
-    
-   
-
-
     <div className="absolute flex justify-end transform -translate-y-1/2 left-24  top-1/4">
       <h3 className='text-6xl text-white font-bold'>
         Affordable <br />
@@ -45,7 +39,7 @@ const Banner = () => {
   </div> 
 
   <div id="slide2" className="carousel-item relative w-full">
-    <img src={image2} alt='' className="w-full" />
+    <img src={image2} alt='' className="w-full rounded-lg" />
 
     <div className="absolute flex justify-end transform -translate-y-1/2 left-24  top-1/4">
       <h3 className='text-6xl text-white font-bold'>
@@ -74,7 +68,7 @@ const Banner = () => {
   </div> 
 
   <div id="slide3" className="carousel-item relative w-full">
-    <img src={image3} alt='' className="w-full" />
+    <img src={image3} alt='' className="w-full rounded-lg" />
 
     <div className="absolute flex justify-end transform -translate-y-1/2 left-24  top-1/4">
       <h3 className='text-6xl text-white font-bold'>
@@ -103,7 +97,7 @@ const Banner = () => {
   </div> 
 
   <div id="slide4" className="carousel-item relative w-full">
-    <img src={image4} alt='' className="w-full" />
+    <img src={image4} alt='' className="w-full rounded-lg" />
 
     <div className="absolute flex justify-end transform -translate-y-1/2 left-24  top-1/4">
       <h3 className='text-6xl text-white font-bold'>
