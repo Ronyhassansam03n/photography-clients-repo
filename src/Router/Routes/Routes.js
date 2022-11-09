@@ -8,6 +8,7 @@ import MyReviews from "../../Component/HiddenRoutes/MyReviews";
 import Home from "../../Component/Home/Home";
 import Services from "../../Component/Services/Services";
 import ServicesDetails from "../../Component/Services/ServicesDetails/ServicesDetails";
+import ServicesCarddetails from "../../Component/ServicesCardDetails/ServicesCarddetails";
 import Main from "../../Layout/Main";
 import HeaderButton from "../../SharedPage/Header/HeaderButtons/HeaderButton";
 
@@ -39,10 +40,11 @@ const router = createBrowserRouter([
   path: '/*',
   element:<AboutUs></AboutUs>
 },
-{
 
-  path: '/details',
-  element: < ServicesDetails></ServicesDetails>
+{
+  path:'/card/:id',
+  element: <ServicesCarddetails></ServicesCarddetails>,
+  loader: ({params}) => fetch (`http://localhost:5000/services/${params.id}`)
 },
 {
 

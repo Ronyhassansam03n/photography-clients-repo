@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const ServicesCard = ({service}) => {
 
-    const {title, banner, short, duration, price} = service
+    const {title, banner, short, duration, price, _id} = service
     return (
         <div className='mt-5 mb-5 mx-auto'>
       
@@ -29,7 +29,7 @@ const ServicesCard = ({service}) => {
     <div className="card-actions">
 
       <button className="btn btn-wraning btn-outline btn-sm">Book Now</button>
-      <Link to='/details'><button className="btn btn-wraning btn-outline btn-sm">Details</button></Link>
+      <Link to={`/card/${_id}`}><button className="btn btn-wraning btn-outline btn-sm">Details</button></Link>
 
     </div>
   </div>
