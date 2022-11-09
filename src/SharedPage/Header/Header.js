@@ -1,22 +1,33 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png'
+import { AuthContext } from '../../Context/AuthProvider/AuthProvider';
 
 const Header = () => {
 
- const manu = 
- <> 
-   <li> 
+    const {user, logOut} = useContext(AuthContext)
 
-    <Link className='font-semibold ' to='/'> HOME</Link>
-    <Link className='font-semibold ' to='/services'> SERVICES</Link>
-    <Link className='font-semibold ' to='/blog'> BLOGS</Link>
-    <Link className='font-semibold ' to='/about'> ABOUT US</Link>
-   
-    
-    
-    </li>  
-  </>
+    const handleLogOut = () =>{
+
+        logOut()
+        .then(() =>{})
+        .catch(error => console.error(error))
+    }
+
+
+    const manu =
+        <>
+            <li>
+
+                <Link className='font-semibold ' to='/'> HOME</Link>
+                <Link className='font-semibold ' to='/services'> SERVICES</Link>
+                <Link className='font-semibold ' to='/blog'> BLOGS</Link>
+                <Link className='font-semibold ' to='/about'> ABOUT US</Link>
+
+
+
+            </li>
+        </>
 
     return (
         <div>
@@ -53,7 +64,7 @@ const Header = () => {
 
 
                     <ul className="menu menu-horizontal p-0">
-                            {manu}
+                        {manu}
                     </ul>
 
 
@@ -64,8 +75,30 @@ const Header = () => {
 
 
                 <div className="navbar-end">
-                    <Link to='/login' className="btn mx-1 btn-outline btn-sm" >Log in</Link>
-                    <Link to='/register' className="btn btn-outline btn-sm">Sign Up</Link>
+
+
+
+                    {
+                        user ?
+                            <>
+                                <p> {user?.displayName}</p>
+                                
+                                <Link  onClick={handleLogOut} to='/' className="btn mx-1 btn-outline btn-sm" >Log Out</Link>
+
+                            </>
+
+                            :
+
+                            <>
+                                <Link to='/login' className="btn mx-1 btn-outline btn-sm" >Log in</Link>
+                                <Link to='/register' className="btn btn-outline btn-sm">Sign Up</Link>
+
+
+                            </>
+
+
+                    }
+
                 </div>
             </div>
 
