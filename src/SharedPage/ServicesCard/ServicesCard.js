@@ -1,9 +1,10 @@
 import React from 'react';
-import Services from '../../Component/Services/Services';
+import { Link } from 'react-router-dom';
+
 
 const ServicesCard = ({service}) => {
 
-    const {title, banner} = service
+    const {title, banner, short, duration, price} = service
     return (
         <div className='mt-5 mb-5 mx-auto'>
       
@@ -20,12 +21,15 @@ const ServicesCard = ({service}) => {
 
     <h2 className="card-title text-error font-bold">{title}</h2>
 
-    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <p>{short}</p><br />
+
+    <p>Duration : {duration}</p>
+    <p className="card-title text-error font-bold">Price : $ {price}</p>
 
     <div className="card-actions">
 
       <button className="btn btn-wraning btn-outline btn-sm">Book Now</button>
-      <button className="btn btn-wraning btn-outline btn-sm">Details</button>
+      <Link to='/details'><button className="btn btn-wraning btn-outline btn-sm">Details</button></Link>
 
     </div>
   </div>
