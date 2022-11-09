@@ -5,13 +5,13 @@ import { AuthContext } from '../../Context/AuthProvider/AuthProvider';
 
 const Header = () => {
 
-    const {user, logOut} = useContext(AuthContext)
+    const { user, logOut } = useContext(AuthContext)
 
-    const handleLogOut = () =>{
+    const handleLogOut = () => {
 
         logOut()
-        .then(() =>{})
-        .catch(error => console.error(error))
+            .then(() => { })
+            .catch(error => console.error(error))
     }
 
 
@@ -74,16 +74,17 @@ const Header = () => {
 
 
 
-                <div className="navbar-end">
+                <div className="navbar-end mx-4">
 
 
 
                     {
                         user ?
                             <>
+                                <Link  to='/reviews' className="btn mx-1 btn-outline btn-sm" >My Reviews</Link>
+                                <Link  to='/add' className="btn mx-1 btn-outline btn-sm" >Add Services</Link>
                                 <p> {user?.displayName}</p>
-                                
-                                <Link  onClick={handleLogOut} to='/' className="btn mx-1 btn-outline btn-sm" >Log Out</Link>
+                                <Link onClick={handleLogOut} to='/' className="btn mx-1 btn-outline btn-sm" >Log Out</Link>
 
                             </>
 

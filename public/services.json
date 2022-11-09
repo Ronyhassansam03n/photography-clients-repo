@@ -1,8 +1,7 @@
 [
 
     {
-        "_id": "01",
-        "services_id" : " 101",
+        "services_id" : "01",
 
         "title" : "Baby Shower Photography",
 
@@ -20,8 +19,7 @@
 
 
     {
-        "_id": "02",
-        "services_id" : " 102",
+        "services_id" : "02",
 
         "title" : "Anniversary Photography",
 
@@ -37,8 +35,7 @@
         "duration" : "01 Day"
         },
     {
-        "_id": "03",
-        "services_id" : " 103",
+        "services_id" : "03",
         "title" : "Birthday Photography",
 
         "banner" : "https://sharp.stylemepretty.com/submissions/uploads/345733/603426ab779cc$!600x.jpg",
@@ -53,8 +50,7 @@
         "duration" : "12 Hr."
         },
     {
-        "_id": "04",
-        "services_id" : " 104",
+        "services_id" : "04",
         "title" : " Portfolio Photography",
         "banner" : "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0b684097751785.5eccc7b39d1ee.jpg",
         "img" : "https://i.pinimg.com/originals/f0/6a/cf/f06acfd01d4d229670c9b74002e863eb.jpg  ",
@@ -67,8 +63,7 @@
         "duration" : "01 Days"
         },
     {
-        "_id": "05",
-        "services_id" : " 105",
+        "services_id" : "05",
         "title" : "Out Door Photography",
         "banner" : "https://expertphotography.b-cdn.net/wp-content/uploads/2019/11/Nature-Photographer-Marco-Grassi.png",
         "img" : "https://i.ytimg.com/vi/ovvFfMsSnkM/maxresdefault.jpg",
@@ -81,8 +76,7 @@
 
         
     {
-        "_id": "06",
-        "services_id" : " 106",
+        "services_id" : "06",
 
         "title" : "Wedding photography",
 

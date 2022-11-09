@@ -3,6 +3,8 @@ import AboutUs from "../../Component/About/AboutUs";
 import LogIn from "../../Component/Authentication/LogIn";
 import Register from "../../Component/Authentication/Register";
 import Blogs from "../../Component/Blog/Blogs";
+import AddServices from "../../Component/HiddenRoutes/AddServices";
+import MyReviews from "../../Component/HiddenRoutes/MyReviews";
 import Home from "../../Component/Home/Home";
 import Services from "../../Component/Services/Services";
 import ServicesDetails from "../../Component/Services/ServicesDetails/ServicesDetails";
@@ -51,6 +53,16 @@ const router = createBrowserRouter([
 
   path: '/register',
   element: <Register></Register>
+},
+{
+
+  path: '/reviews',
+  element: <MyReviews></MyReviews>
+},
+{
+
+  path: '/add',
+  element: <AddServices></AddServices>
 },
 {
   path:'/off',
