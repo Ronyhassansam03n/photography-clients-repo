@@ -5,9 +5,9 @@ import Register from "../../Component/Authentication/Register";
 import Blogs from "../../Component/Blog/Blogs";
 import AddServices from "../../Component/HiddenRoutes/AddServices";
 import MyReviews from "../../Component/HiddenRoutes/MyReviews";
+import Orders from "../../Component/HiddenRoutes/Orders";
 import Home from "../../Component/Home/Home";
 import Services from "../../Component/Services/Services";
-import ServicesDetails from "../../Component/Services/ServicesDetails/ServicesDetails";
 import ServicesCarddetails from "../../Component/ServicesCardDetails/ServicesCarddetails";
 import Main from "../../Layout/Main";
 import HeaderButton from "../../SharedPage/Header/HeaderButtons/HeaderButton";
@@ -63,9 +63,19 @@ const router = createBrowserRouter([
 },
 {
 
-  path: '/add',
-  element: <AddServices></AddServices>
+  path: '/add/:id',
+  element: <AddServices></AddServices>,
+  loader: ({params}) => fetch (`http://localhost:5000/services/${params.id}`)
+  
 },
+
+{
+
+path:'/added',
+element :<Orders></Orders>
+
+},
+
 {
   path:'/off',
   element: <HeaderButton></HeaderButton>

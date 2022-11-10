@@ -3,10 +3,10 @@ import { Link, useLoaderData } from 'react-router-dom';
 
 const ServicesCarddetails = () => {
 
- const {title, img, description, duration, price} = useLoaderData()
+ const {title, img, description, duration, price, _id} = useLoaderData()
  
 
-    return (
+    return ( 
         <div>
              <h2 className='text-5xl font-semibold text-error mb-10'> {title}</h2>
              <img className='w-3/4 mx-auto rounded-lg' src={img} alt="" /> <br />
@@ -14,7 +14,7 @@ const ServicesCarddetails = () => {
              <p className='text-2xl'> Duration : {duration}</p> <br />
              <p className='text-3xl font-semibold text-error'> Price : $ {price}</p><br />
 
-             <Link  to='/add' className="btn mx-1 btn-outline mb-10 " >Add Services</Link>
+             <Link  to={`/add/${_id}`} className="btn mx-1 btn-outline mb-10 " >Add Services</Link>
 
 
         </div>

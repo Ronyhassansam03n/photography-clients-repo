@@ -81,6 +81,7 @@ const LogIn = () => {
         </div>
         <div className="form-control mt-6">
         <button className="btn btn-outline btn-danger mb-5">Login</button>
+        <p >or </p>
           <button onClick={googleHandle} className="btn btn-outline btn-danger">Login via google</button>
 
             
