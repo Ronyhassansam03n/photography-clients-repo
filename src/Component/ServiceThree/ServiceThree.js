@@ -8,7 +8,7 @@ const ServiceThree = () => {
     const [threeServices, setThreeServices] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/three')
+        fetch('https://photographer-server-five.vercel.app/three')
             .then(res => res.json())
             .then(data => setThreeServices(data))
 

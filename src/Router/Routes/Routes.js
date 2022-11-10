@@ -47,7 +47,7 @@ const router = createBrowserRouter([
 {
   path:'/card/:id',
   element: <ServicesCarddetails></ServicesCarddetails>,
-  loader: ({params}) => fetch (`http://localhost:5000/services/${params.id}`)
+  loader: ({params}) => fetch (`https://photographer-server-five.vercel.app/services/${params.id}`)
 },
 {
 
@@ -68,7 +68,7 @@ const router = createBrowserRouter([
 
   path: '/add/:id',
   element: <PrivateRoute><AddServices></AddServices></PrivateRoute>,
-  loader: ({params}) => fetch (`http://localhost:5000/services/${params.id}`)
+  loader: ({params}) => fetch (`https://photographer-server-five.vercel.app/services/${params.id}`)
   
 },
 {

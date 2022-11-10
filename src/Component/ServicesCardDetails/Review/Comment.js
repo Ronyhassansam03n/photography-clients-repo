@@ -27,7 +27,7 @@ const Comment = () => {
         }
 
 
-        fetch('http://localhost:5000/reviews', {
+        fetch('https://photographer-server-five.vercel.app/reviews', {
 
             method: 'POST',
             headers:{
