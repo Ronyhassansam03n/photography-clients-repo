@@ -11,6 +11,7 @@ import Services from "../../Component/Services/Services";
 import ServicesCarddetails from "../../Component/ServicesCardDetails/ServicesCarddetails";
 import Main from "../../Layout/Main";
 import HeaderButton from "../../SharedPage/Header/HeaderButtons/HeaderButton";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
 
 const router = createBrowserRouter([
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
 },
 {
   path:'/services',
-  element: <Services></Services>
+  element: <PrivateRoute><Services></Services></PrivateRoute>
 },
 {
     path:'/blog',
