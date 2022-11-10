@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
+import Comment from './Review/Comment';
 import Review from './Review/Review';
 
 const ServicesCarddetails = () => {
@@ -16,8 +17,10 @@ const ServicesCarddetails = () => {
              <p className='text-3xl font-semibold text-error'> Price : $ {price}</p><br />
 
              <Link  to={`/add/${_id}`} className="btn mx-1 btn-outline mb-10 " >Add Services </Link>
-
+                
                 <Review></Review>
+
+                <Comment></Comment>
         </div>
     );
 };
