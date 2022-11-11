@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div >
+        <div  >
 
             <div className="card w-1/2 bg-neutral text-neutral-content mx-auto mt-5 ">
                 <div className="card-body items-center text-center ">
@@ -31,7 +31,7 @@ const Blogs = () => {
 
                 </div>
             </div>
-            <div className="card w-1/2 bg-neutral text-neutral-content mx-auto mt-10">
+            <div className="card w-1/2 bg-neutral text-neutral-content mx-auto mt-10 mb-10">
                 <div className="card-body items-center text-center">
                     <h2 className="card-title font-bold text-error">How does NodeJS handle multiple requests at the same time?</h2>
                     <p>How NodeJS handle multiple client requests? NodeJS receives multiple client requests and places them into EventQueue. NodeJS is built with the concept of event-driven architecture. NodeJS has its own EventLoop which is an infinite loop that receives requests and processes them.</p>
