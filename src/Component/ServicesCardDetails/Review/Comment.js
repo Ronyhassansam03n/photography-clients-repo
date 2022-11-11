@@ -18,16 +18,16 @@ const Comment = () => {
 
         const myReview = {
             reviews : _id,
-           reviewer: name,
-            email,
-            message,
+            reviewer: name,
+            myEmail :email,
+            sms : message,
 
             
 
         }
 
 
-        fetch('https://photographer-server-five.vercel.app/reviews', {
+        fetch('http://localhost:5000/reviews', {
 
             method: 'POST',
             headers:{
@@ -60,7 +60,7 @@ const Comment = () => {
         <div>
 
 
-            <form onClick={handleReview}>
+            <form onSubmit={handleReview}>
 
             <input type="text" name='name'  placeholder="Full name" className="input input-bordered w-full max-w-xs " />
             <input type="text" name='email' placeholder="Your email" defaultValue={user?.email} className="input input-bordered w-full max-w-xs" readOnly />

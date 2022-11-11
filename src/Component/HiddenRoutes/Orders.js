@@ -14,7 +14,7 @@ const Orders = () => {
     
     useEffect(() =>{
 
-        fetch(`https://photographer-server-five.vercel.app/orders?email=${user?.email}`)
+        fetch(`http://localhost:5000/orders?email=${user?.email}`)
         .then(res => res.json())
         .then(data => setOrders(data))
 
@@ -29,7 +29,7 @@ const Orders = () => {
             {
                 orders.map(order => <Extra 
                     
-                    key={orders._id}
+                    key={order._id}
                     order={order}
                     ></Extra>)
             }

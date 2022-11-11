@@ -30,7 +30,7 @@ const AddServices = () => {
         }
 
 
-        fetch('https://photographer-server-five.vercel.app/orders', {
+        fetch('http://localhost:5000/orders', {
 
             method: 'POST',
             headers:{

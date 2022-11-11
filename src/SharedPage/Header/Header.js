@@ -81,7 +81,7 @@ const Header = () => {
                     {
                         user ?
                             <>
-                                <Link  to='/reviews' className="btn mx-1 btn-outline btn-sm" >My Reviews</Link>
+                                <Link  to='/comment' className="btn mx-1 btn-outline btn-sm" >My Reviews</Link>
                                 <Link  to='/added' className="btn mx-1 btn-outline btn-sm" >Added Services</Link>
                                 <p> {user?.displayName}</p>
                                 <Link onClick={handleLogOut} to='/' className="btn mx-1 btn-outline btn-sm" >Log Out</Link>

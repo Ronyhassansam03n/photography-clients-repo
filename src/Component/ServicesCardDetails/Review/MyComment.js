@@ -1,12 +1,9 @@
 import React from 'react';
 
 const MyComment = () => {
-
-
-   
     return (
         <div>
-           <h2 className='text-3xl'> No comment yet ! </h2>
+            hello comment
         </div>
     );
 };

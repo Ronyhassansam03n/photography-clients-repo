@@ -4,12 +4,12 @@ import LogIn from "../../Component/Authentication/LogIn";
 import Register from "../../Component/Authentication/Register";
 import Blogs from "../../Component/Blog/Blogs";
 import AddServices from "../../Component/HiddenRoutes/AddServices";
-import MyReviews from "../../Component/HiddenRoutes/MyReviews";
 import Orders from "../../Component/HiddenRoutes/Orders";
 import Home from "../../Component/Home/Home";
-
 import Services from "../../Component/Services/Services";
 import Comment from "../../Component/ServicesCardDetails/Review/Comment";
+import CommentArea from "../../Component/ServicesCardDetails/Review/CommentArea";
+import MyComment from "../../Component/ServicesCardDetails/Review/MyComment";
 import ServicesCarddetails from "../../Component/ServicesCardDetails/ServicesCarddetails";
 import Main from "../../Layout/Main";
 import HeaderButton from "../../SharedPage/Header/HeaderButtons/HeaderButton";
@@ -47,7 +47,7 @@ const router = createBrowserRouter([
 {
   path:'/card/:id',
   element: <ServicesCarddetails></ServicesCarddetails>,
-  loader: ({params}) => fetch (`https://photographer-server-five.vercel.app/services/${params.id}`)
+  loader: ({params}) => fetch (`http://localhost:5000/services/${params.id}`)
 },
 {
 
@@ -59,31 +59,37 @@ const router = createBrowserRouter([
   path: '/register',
   element: <Register></Register>
 },
-{
 
-  path: '/reviews',
-  element: <MyReviews></MyReviews>
-},
 {
 
   path: '/add/:id',
   element: <PrivateRoute><AddServices></AddServices></PrivateRoute>,
-  loader: ({params}) => fetch (`https://photographer-server-five.vercel.app/services/${params.id}`)
+  loader: ({params}) => fetch (`http://localhost:5000/services/${params.id}`)
   
+},
+
+{
+    path: '/comment',
+    element: <CommentArea></CommentArea>
+
 },
 {
 
-  path: '/reviews/:id',
+  path: '/review',
   element: <PrivateRoute><Comment></Comment></PrivateRoute>,
-  
-  
- 
-  
 },
+
 {
 
 path:'/added',
 element :<Orders></Orders>
+
+},
+
+{
+
+path:'/comment',
+element : <MyComment></MyComment>
 
 },
 
