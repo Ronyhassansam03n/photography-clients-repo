@@ -11,7 +11,7 @@ const CommentArea = () => {
 
     useEffect(() => {
 
-        fetch(`http://localhost:5000/reviews?email=${user?.email}`)
+        fetch(`https://photographer-server-two.vercel.app/reviews?email=${user?.email}`)
             .then(res => res.json())
             .then(data => setMyReview(data))
 
@@ -22,7 +22,7 @@ const CommentArea = () => {
     const handleDelete = id =>{
         const proceed = window.confirm ('Are you Sure ?, you want delete you comment')
         if(proceed){
-            fetch(`http://localhost:5000/reviews/${id}`,{
+            fetch(`https://photographer-server-two.vercel.app/reviews/${id}`,{
 
              method: 'DELETE'
 
