@@ -1,8 +1,8 @@
-### welcome to Creative Photography
+# Welcome to Creative Photography
 
 *** Best photography in you town ***
-
-*** my live website lnk  :                         ***
+ 
+ # My live website lnk  :   https://photographer-assignment-6838b.web.app                     
 
 
  *** This is photography Website ***
@@ -15,7 +15,7 @@
 3. BLOGS
 4. ABOUT
 
-# MAKE SURE YOU LOG IN BEFOFE GO SOMEWHERE
+##  MAKE SURE YOU LOG IN BEFORE GO SOMEWHERE
 
 ### WE ALSO ADD SOME AUTHENTICATION SYSTEM 
 
